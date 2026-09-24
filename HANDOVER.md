@@ -48,7 +48,7 @@ The open/paid filter was reproduced against the supplied register and corrected;
 
 The supplied register was restored and checked: 9 invoices, 5 payments, 7 open invoices, ₹3,698.19 outstanding, and the unmatched KEEP-U1 payment remained intact. New invoices INV-102 and INV-202 and new payments were then imported successfully and remained present after restarting. The amount-based payment mismatch was also verified: MAPLE / INV-200 received ₹1,250 while HARBOR / INV-100 remained unpaid.
 
-I did not attempt every seeded defect because prioritization was permitted. In a real project, I would next investigate the remaining untested edge cases and expand end-to-end API/browser coverage.
+I did not attempt every seeded defect. In a real project, I would investigate concurrent imports, malformed CSV edge cases, and consistency between API, browser and export views. Next I would expand end-to-end coverage.
 
 ## Tools and judgment
 
